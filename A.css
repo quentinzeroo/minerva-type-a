@@ -1,0 +1,60 @@
+html, body {
+padding: 0;
+margin: 0;
+}
+
+#bigcontainer0 {
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    top:0;
+    left:0;
+}
+
+#bigcontainer1 {
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#bigcontainer1 {
+    z-index: 10;
+}
+
+.circle {
+    float: left;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.point {
+    float:left;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    -webkit-transition: all 60s ease-out;
+    -moz-transition: all 60s ease-out;
+    -o-transition: all 60s ease-out;
+    -ms-transition: all 60s ease-out;
+    transition: all 60s ease-out;
+}
+
+.point.false:hover {
+background-color: white;
+}
+
+
+.point:hover {
+    background-color: black;
+    -webkit-transition: all 0s ease-in;
+    -moz-transition: all 0s ease-in;
+    -o-transition: all 0s ease-in;
+    -ms-transition: all 0s ease-in;
+    transition: all 0s ease-in;
+    transition: all 0s ease-in;
+}
+
+
